@@ -87,6 +87,11 @@
     background-color: #212c4c;
     color: #cbb895;
     font-family: "noto-400";
+    transition: 0.3s ease;
+}
+.idea .idea_content a:hover{
+    background-color: #cbb895;
+    color: #212c4c;
 }
 .idea .idea_img img{
     width: 100%;
@@ -111,6 +116,7 @@
 
 /* product */
 .product .inner{
+    position: relative;
     padding: 125px 0;
 }
 .product .product_text{
@@ -146,4 +152,28 @@
     display: inline-block;
     width: 288px;
     text-align: center;
+}
+
+/* event */
+.event{
+    text-align: center;
+}
+.event .inner{
+    padding: 125px 0;
+    position: relative;
+}
+
+/* category */
+.category .inner{
+    padding: 125px 40px;
+    position: relative;
+}
+.category .category-left{
+    float: left;
+}
+.category .category-right{
+    float: right;
+}
+.category .category-right article:first-child{
+    margin-bottom: 8px;
 }
