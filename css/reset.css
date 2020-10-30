@@ -60,12 +60,17 @@ a{
 }
 .inner{
     width: calc(100vw - 160px);
-    height: auto;
     min-height: 100%;
     margin: 0 auto;
     border-left: 1px solid rgba(33,44,76,0.2);
     border-right: 1px solid rgba(33,44,76,0.2);
     position: relative;
+}
+.bd-r{
+    border-right: 1px solid rgba(33,44,76,0.2);
+}
+.bd-l{
+    border-left: 1px solid rgba(33,44,76,0.2);
 }
 .bd-t{
     border-top: 1px solid rgba(33,44,76,0.2);
