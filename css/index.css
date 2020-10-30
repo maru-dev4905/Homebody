@@ -100,3 +100,50 @@
 .bx-wrapper, .bx-viewport {
     height: 370px !important;
 }
+.bx-wrapper .bx-prev{
+    background: url("../images/icon/arrow-left.png") no-repeat center !important;
+    background-size: contain !important;
+}
+.bx-wrapper .bx-next{
+    background: url("../images/icon/arrow-right.png") no-repeat center !important;
+    background-size: contain !important;
+}
+
+/* product */
+.product .inner{
+    padding: 125px 0;
+}
+.product .product_text{
+    text-align: center;
+}
+.product .product_text h2{
+    font-size: 27px;
+    font-family: "noto-700";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+}
+.product .product_text p{
+    font-family: "noto-400";
+    color: rgb(81, 81, 81);
+    margin-top: 25px;
+    position: relative;
+}
+.product .product_text p:after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #212c4c;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+.product .product_list{
+    margin-top: 100px;
+}
+.product .product_list li{
+    display: inline-block;
+    width: 288px;
+    text-align: center;
+}
