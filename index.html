@@ -14,6 +14,8 @@
     <link rel="apple-touch-icon-precomposed" href="./favicons/favicon_180x180.png">
 
     <script src="./js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </head>
 <body>
     <!-- header -->
@@ -59,12 +61,47 @@
             </nav>
         </div>
     </header>
-
-
-
-
+    <!-- banner -->
+    <section class="banner">
+        <div class="inner">
+            <div class="banner_text">
+                <h2>사계절 머무르고 싶은 우리 집</h2>
+                <p>Warm and trendy products from 'HOMEBODY'</p>
+            </div>
+            <div class="banner_group-btn">
+                <a href="./about.html">Our Story</a>
+                <a href="#">All Product</a>
+            </div>
+        </div>
+    </section>
+    <!-- idea -->
+    <section class="idea bd-t">
+        <div class="inner clearfix">
+            <div class="idea_content">
+                <h2>HOMEBODY'S IDEA</h2>
+                <p>homebody가 추천해주는 인테리어 idea</p>
+                <a href="./idea.html">
+                    Go to All Idea
+                </a>
+            </div>
+            <div class="idea_img slider">
+                <div>
+                    <img src="./images/common/idea/idea01.png" alt="idea-img">
+                </div>
+                <div>
+                    <img src="./images/common/idea/idea02.png" alt="idea-img">
+                </div>
+                <div>
+                    <img src="./images/common/idea/idea03.png" alt="idea-img">
+                </div>
+                <div>
+                    <img src="./images/common/idea/idea04.png" alt="idea-img">
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- footer -->
-    <footer class="bd-b">
+    <footer class="bd-b bd-t">
         <div class="inner">
             <div class="footer_main clearfix">
                 <div class="footer_content">
@@ -130,5 +167,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/slider.js"></script>
 </body>
 </html>

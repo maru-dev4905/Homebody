@@ -2,7 +2,6 @@
 
 /* header */
 header{
-    width: 100vw;
     height: 80px;
     position: relative;
 }
@@ -46,9 +45,6 @@ header .gnb-sub li a:hover img{
 }
 
 /* footer */
-footer{
-    width: 100vw;
-}
 footer .footer_main{
     height: 119px;
 }
@@ -57,9 +53,9 @@ footer .footer_main{
     width: calc( 100% - 119px);
     height: 100%;
     padding: 30px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+}
+.footer_main .footer_content .fnb{
+    margin-bottom: 20px;
 }
 .footer_main .footer_content .fnb li{
     float: left;

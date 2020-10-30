@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* banner */
+.banner{
+    height: 800px;
+    position: relative;
+}
+.banner .inner{
+    background-image: url("../images/main/main-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner .banner_text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.banner .banner_text h2{
+    font-size: 55px;
+    margin-bottom: 45px;
+    color: #fffcf7;
+    font-family: "notokr-700";
+    font-weight: 700;
+}
+.banner .banner_text p{
+    color: #fffcf7;
+    font-family: "noto-400";
+}
+.banner .banner_group-btn{
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translateX(-50%);
+}
+.banner .banner_group-btn a{
+    font-size: 16px;
+    font-family: "noto-500";
+    padding: 10px 30px;
+    border: 1px solid #fffcf7;
+    color: #fffcf7;
+    margin-right: 20px;
+}
+.banner .banner_group-btn button:nth-child(2){
+    margin-right: 0;
+}
+
+/* idea */
+.idea .inner{
+    padding: 125px 160px;
+}
+.idea .idea_content{
+    width: 50%;
+    height: 375px;
+    float: left;
+    text-align: center;
+}
+.idea .idea_content h2{
+    font-size: 27px;
+    font-family: "noto-700";
+    color: rgb(51, 51, 51);
+    margin-top: 140px;
+}
+.idea .idea_content p{
+    font-family: "noto-400";
+    color: rgb(81, 81, 81);
+    margin-top: 25px;
+    position: relative;
+}
+.idea .idea_content p:after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #212c4c;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+.idea .idea_content a{
+    margin-top: 75px;
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #212c4c;
+    color: #cbb895;
+    font-family: "noto-400";
+}
+.idea .idea_img img{
+    width: 100%;
+}
+.bx-wrapper{
+    box-shadow: none !important;
+    width: 40% !important;
+    border: none !important;
+    float: right;
+}
+.bx-wrapper, .bx-viewport {
+    height: 370px !important;
+}
