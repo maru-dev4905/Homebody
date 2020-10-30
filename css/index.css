@@ -42,6 +42,11 @@
     border: 1px solid #fffcf7;
     color: #fffcf7;
     margin-right: 20px;
+    transition: 0.3s ease;
+}
+.banner .banner_group-btn a:hover{
+    background-color: #fffcf7;
+    color: #212c4c;
 }
 .banner .banner_group-btn button:nth-child(2){
     margin-right: 0;
