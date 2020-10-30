@@ -56,11 +56,25 @@ button{
 a{
     text-decoration: none;
     color: inherit;
+    outline: none;
 }
-.sec_inner{
+.inner{
     width: calc(100vw - 160px);
     height: auto;
+    min-height: 100%;
     margin: 0 auto;
     border-left: 1px solid rgba(33,44,76,0.2);
     border-right: 1px solid rgba(33,44,76,0.2);
+    position: relative;
+}
+.bd-t{
+    border-top: 1px solid rgba(33,44,76,0.2);
+}
+.bd-b{
+    border-bottom: 1px solid rgba(33,44,76,0.2);
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
 }

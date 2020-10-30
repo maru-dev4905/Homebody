@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* header */
+header{
+    width: 100vw;
+    height: 80px;
+    position: relative;
+}
+header .menu-open{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-40%);
+}
+header .logo{
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+header .logo img{
+    width: 100%;
+}
+header .gnb-sub{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+header .gnb-sub li{
+    display: inline-block;
+}
+header .gnb-sub li a{
+    display: block;
+    padding: 5px 10px;
+}
+header .gnb-sub li a img{
+    width: 26px;
+}
