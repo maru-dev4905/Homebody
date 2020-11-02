@@ -20,13 +20,11 @@ li {
     list-style: none;
 }
 
-/*첫번째줄*/
 .product .product_row li {
     margin-top: 100px;
     width: 439px;
     height: 550px;
     text-align: center;
-    /*플롯*/
     float: left;
     cursor: pointer;
     position: relative;
@@ -37,12 +35,18 @@ li {
     left: 50%;
     transform: translateX(-50%);
 }
+.product .product_row .product_img{
+    height: 439px;
+    overflow: hidden;
+    position: relative;
+}
 .product .product_row li img{
-    width: 100%;
-    max-width: 100%;
+    text-align: center;
+    width: 90%;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     transition: 0.3s ease;
 }
 .product .product_row li h3 {
@@ -64,15 +68,16 @@ li {
 }
 .product .product_row img+img {
     opacity: 0;
+    width: 100%;
 }
 .product .product_row li:hover img+img {
     opacity: 1;
+    transform: scale(1.05) translateX(-50%);
 }
 .product .product_row li:hover > img {
     opacity: 0;
 }
 
-/*세번째줄*/
 .product .product_big {
     padding: 0 30px;
 }

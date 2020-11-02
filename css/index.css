@@ -157,6 +157,13 @@
     display: inline-block;
     width: 288px;
     text-align: center;
+    transition: 0.3s ease;
+}
+.product .product_list li a{
+    display: block;
+}
+.product .product_list li:hover{
+    opacity: 0.5;
 }
 
 /* event */
@@ -181,4 +188,30 @@
 }
 .category .category-right article:first-child{
     margin-bottom: 8px;
+}
+.category article{
+    position: relative;
+}
+.category .category_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 3px);
+    background: rgb(17,17,17);
+    background: linear-gradient(0deg, rgba(17,17,17,1) 0%, rgba(62,62,62,0) 100%);
+    color: #fffcf7;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-family: "noto-700";
+    opacity: 0;
+    transition: 0.3s ease;
+}
+.category .category_content h3{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.category article:hover .category_content{
+    opacity: 1;
 }
