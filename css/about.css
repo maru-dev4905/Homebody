@@ -1,0 +1,151 @@
+@charset "utf-8";
+body {
+    font-family: "noto-400";
+    font-family: "notokr-400";
+}
+/*0. 네비게이션*/
+.category {
+    font-size: 18px;
+    height: 80px;
+    line-height: 80px;
+    margin-left: 17px;
+}
+.category .home:hover {
+    opacity: 0.6;
+}
+.category .about {
+    color: #e07515;
+}
+.category .about:hover {
+    opacity: .6;
+}
+
+/*1. 메인이미지*/
+#about_main img {
+    width: 100%;
+}
+
+
+/*2. 키워드*/
+.about_keyword {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.about_keyword div {
+    /*margin-right: 80px;*/
+    margin-left: 120px;
+}
+.about_keyword p{
+    text-align: center;
+    color: #555555;
+    margin-top: 30px;
+    line-height: 25px;
+}
+.trend {
+    float: left;
+}
+.useful {
+    float: left;
+}
+.raitional {
+    float: left;
+}
+.service {
+    float: left;
+}
+
+
+/*3. 회사소개*/
+.aboutus {}
+.aboutus img {
+    width: 50%;
+}
+
+/*공통*/
+.aboutus h1,
+.contact_text h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.aboutus p {
+    color: #555555;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*3-1. 홈메이드*/
+.homemade .made_text {
+    width: 50%;
+    height: 33.33%;
+    /*플롯*/
+    float: right;
+    
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+/*3-2. 친환경*/
+.eco .eco_text {
+    width: 50%;
+    height: 33.33%;
+    /*플롯*/
+    float: left;
+    
+    padding-top: 100px;
+    padding-left: 180px;
+}
+
+/*3-3. 사랑캠페인*/
+.love .love_text {
+    width: 50%;
+    height: 33.33%;
+    /*플롯*/
+    float: right;
+    
+    padding-top: 120px;
+    padding-left: 200px;    
+}
+
+
+/*4. 콘택트*/
+/*구글맵*/
+.contactus iframe {
+    width: 50%;
+}
+.contactus {
+    text-align: center;
+}
+.contactus .contact_text {
+    width: 50%;
+    /*플롯*/
+    float: left;
+    margin-top: 40px;
+    /*ps 위치기준*/
+    position: relative;
+}
+.contact_text .line {
+    width: 25px;
+    height: 2px;
+    margin-bottom: 30px;
+    background: #333;
+
+}
+
+/*공통*/
+.contact_text h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #e07515;
+}
+.contact_text p {
+    color: #555555;
+    line-height: 30px;
+}
+
+.address {
+    margin-bottom: 45px;
+}
+.transport {
+    margin-bottom: 45px;
+}

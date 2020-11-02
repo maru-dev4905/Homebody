@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+header.idea_header {
+    text-align: center;
+    color: #515151;
+}
+.home_idea{
+    height: 96px;
+    line-height: 96px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.home_idea li {
+    display: inline-block;
+}
+.home_idea .color {
+    color: #e07515;
+
+}
+.idea_header {
+    height: 352px;
+}
+.idea_header .title {
+    font-size: 48px;
+    padding-top: 110px;
+    font-weight: bold;
+}
+.idea_header .sub_title {
+    margin-top: 45px;
+    font-weight: 400;
+}
+
+/*section {
+    clear: both;
+}*/
+
+      #columns{
+        
+        column-width:554px;
+        column-gap: 5px;
+        margin-right: 18px;
+        margin-left: 18px;
+       
+      }
+      #columns figure{
+        display: inline-block;
+/*        border:1px solid rgba(0,0,0,0.2);*/
+        margin:0;
+        position: relative;
+
+        margin:10px;
+/*        box-shadow: 2px 2px 5px rgba(0,0,0,0.5);;*/
+      }
+      #columns figure img{
+        width:100%;
+      }
+      #columns figure figcaption{
+        border-top:1px solid rgba(0,0,0,0.2);
+        padding:10px;
+        margin-top:11px;
+      }
+
+.more {
+    margin-left: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+
+.more:hover {
+    background-color: darkgray;
+    color: white;
+    transition: 0.3s ease;
+
+}
+#columns .category_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 3px);
+    background: rgb(17,17,17);
+    background: linear-gradient(0deg, rgba(17,17,17,1) 0%, rgba(62,62,62,0) 100%);
+    font-size: 42px;
+    text-transform: uppercase;
+    font-family: "noto-700";
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+#columns .category_content p{
+    font-size: 18px;
+    position: absolute;
+    bottom: 30px;
+    left: 5%;
+    font-family: "notokr-500";
+    color: #fffcf7;
+}
+#columns figure:hover .category_content{
+    opacity: 1;
+}
