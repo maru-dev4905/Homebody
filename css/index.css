@@ -200,7 +200,6 @@
     height: calc(100% - 3px);
     background: rgb(17,17,17);
     background: linear-gradient(0deg, rgba(17,17,17,1) 0%, rgba(62,62,62,0) 100%);
-    color: #fffcf7;
     font-size: 42px;
     text-transform: uppercase;
     font-family: "noto-700";
@@ -209,8 +208,17 @@
 }
 .category .category_content h3{
     position: absolute;
-    bottom: 5%;
+    bottom: 60px;
     left: 5%;
+    color: #cbb895;
+}
+.category .category_content p{
+    font-size: 16px;
+    position: absolute;
+    bottom: 30px;
+    left: 5%;
+    font-family: "notokr-500";
+    color: #fffcf7;
 }
 .category article:hover .category_content{
     opacity: 1;
