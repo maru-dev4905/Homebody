@@ -5,6 +5,9 @@ header{
     height: 80px;
     position: relative;
 }
+header .inner{
+    position: relative;
+}
 header .menu-open{
     position: absolute;
     top: 50%;
