@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+.product .inner{
+    padding: 100px 18px;
+}
+.product h2{
+    font-size: 42px;
+    font-family: "noto-700";
+    color: #212c4c;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+.product h2::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: #212c4c;
+    margin: 20px auto;
+}
+.product a{
+    display: block;
+    width: 322px;
+    margin-right: 22.8px;
+    height: 700px;
+    float: left;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product a:last-child{
+    margin-right: 0;
+}
+.product a:nth-child(odd){
+    bottom: -50px;
+}
+.product a::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(17,17,17);
+    background: linear-gradient(0deg, rgba(17,17,17,1) 0%, rgba(62,62,62,0) 100%);
+    opacity: 0;
+    transition: 0.3s ease;
+}
+.product a:hover::before,
+.product a:hover h3{
+    opacity: 1;
+}
+.product .deco{
+    background-image: url("../images/common/product/deco.jpg");
+}
+.product .table{
+    background-image: url("../images/common/product/table.jpg");
+}
+.product .desk{
+    background-image: url("../images/common/product/desk.jpg");
+}
+.product .chair{
+    background-image: url("../images/common/product/chair.jpg");
+}
+.product .shelves{
+    background-image: url("../images/common/product/shelves.jpg");
+}
+.product h3{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 30px;
+    font-family: "noto-700";
+    letter-spacing: 1.2;
+    color: #fffcff;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    opacity: 0;
+}
