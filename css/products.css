@@ -80,3 +80,19 @@
     transition: 0.3s ease;
     opacity: 0;
 }
+/*0. 네비게이션*/
+.category {
+    font-size: 18px;
+    height: 80px;
+    line-height: 80px;
+    margin-left: 17px;
+}
+.category .home:hover {
+    opacity: 0.6;
+}
+.category .about {
+    color: #e07515;
+}
+.category .about:hover {
+    opacity: .6;
+}

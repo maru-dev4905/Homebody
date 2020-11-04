@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOMEBODY | Product Detail - Interior & Furniture</title>
+    <title>HOMEBODY | Detail - Interior & Furniture</title>
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/font.css">
@@ -15,7 +16,348 @@
 
     <script src="./js/jquery-3.3.1.min.js"></script>
 </head>
+
 <body>
-    
+    <!-- header -->
+    <header class="bd-b clearfix">
+        <div class="inner">
+            <!-- menu icon -->
+            <button class="menu-open">
+                <i>
+                    <img src="./images/icon/menu.png" alt="menu-icon">
+                </i>
+            </button>
+            <!-- logo -->
+            <h1 class="logo">
+                <a href="./index.html">
+                    <img src="./images/main/logo.png" alt="logo">
+                </a>
+            </h1>
+            <!-- gnb sub-->
+            <nav class="gnb-sub">
+                <ul class="clearfix">
+                    <li>
+                        <a href="#">
+                            <i>
+                                <img src="./images/icon/user.png" alt="user-icon">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i>
+                                <img src="./images/icon/cart.png" alt="cart-icon">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i>
+                                <img src="./images/icon/search.png" alt="search-icon">
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <aside class="gnb">
+        <div class="gnb-button bd-b">
+            <button class="menu-close">
+                <i>
+                    <img src="./images/icon/close.png" alt="close-icon">
+                </i>
+            </button>
+        </div>
+        <nav class="gnb-nav">
+            <ul>
+                <li>
+                    <a href="./products.html">products</a>
+                </li>
+                <li>
+                    <a href="#">collection</a>
+                </li>
+                <li>
+                    <a href="./idea.html">idea</a>
+                </li>
+                <li>
+                    <a href="#">event</a>
+                </li>
+                <li>
+                    <a href="#">support</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="gnb-sns clearfix">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i>
+                            <img src="./images/icon/facebook.png" alt="facebook-icon">
+                            <img src="./images/icon/facebook-w.png" alt="facebook-icon">
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i>
+                            <img src="./images/icon/instagram.png" alt="instagram-icon">
+                            <img src="./images/icon/instagram-w.png" alt="instagram-icon">
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i>
+                            <img src="./images/icon/pinterest.png" alt="pinterest-icon">
+                            <img src="./images/icon/pinterest-w.png" alt="pinterest-icon">
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i>
+                            <img src="./images/icon/twitter.png" alt="twitter-icon">
+                            <img src="./images/icon/twitter-w.png" alt="twitter-icon">
+                        </i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <div class="dim"></div>
+    <div class="inner">
+        <ul class="category">
+            <li>
+                <a href="index.html"><span class="home">HOME</span></a>&nbsp;>&nbsp;
+                <a href="products.html"><span class="home">Products</span></a>&nbsp;>&nbsp;
+                <a href="table.html"><span class="home">Table</span></a>&nbsp;>&nbsp;
+                <a href="detail.html"><span class="about">TABLE SET 1400*1740</span></a>
+            </li>
+        </ul>
+    </div>
+    <div class="bd-t">
+        <div class="inner">
+            <div class="article_info">
+
+                <img src="images/common/detail/big02.jpg" alt="상세이미지">
+                <div class="article_info_txt">
+                    <div class="txt1">
+                        <h1>TABLE SET 1400*1740</h1>
+                        <p class="light">products no.20000003a</p>
+                        <hr>
+                        <h3>270.000WON</h3>
+                    </div>
+                    <ul class="detail_content">
+                        <li>
+                            <strong>원산지</strong><span>국내</span>
+                        </li>
+                        <li>
+                            <strong>제조사</strong><span>자체제작</span>
+                        </li>
+                        <li>
+                            <strong>상품코드</strong><span>N.34acb1</span>
+                        </li>
+                        <li>
+                            <strong>적립금</strong><span>5.400won</span>
+                        </li>
+                        <li>
+                            <strong>색상</strong>
+                            <ul>
+                                <li>
+                                    <button class="color-btn1">
+                                        <img src="./images/common/detail/color-1.PNG" alt="detail_color">
+                                    </button>
+                                <li>
+                                <li>
+                                    <button class="color-btn2">
+                                        <img src="./images/common/detail/color-2.PNG" alt="detail_color">
+                                    </button>
+                                <li>
+                                <li>
+                                    <button class="color-btn3">
+                                        <img src="./images/common/detail/color-3.PNG" alt="detail_color">
+                                    </button>
+                                <li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="color">
+                                <button class="plus">+</button>
+                                <input class="amount" type="number" min="0" max="100">
+                                <button class="minus">-</button>
+                            </div>
+                        </li>
+                        <li>
+                            <h1 class="product-name"></h1>
+                            <h2 class="price">0</h2>
+                        </li>
+                        <li>
+                            <button class="buy-btn">
+                                buy now
+                            </button>
+                            <button class="cart-btn">
+                                add to cart
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bd-t">
+        <div class="inner">
+            <div class="article_detail">
+                <h2>DETAIL</h2>
+                <img src="images/common/detail/big01.jpg" alt="데스크이미지">
+                <h4>TABLE SET 1200*1740</h4>
+
+                <div class="detail_fl clearfix">
+                    <div class="detail1">
+                        <img src="images/common/detail/detail01.jpg" alt="상세이미지1">
+                        <div class="detail_fl_content">
+                            <h5>Built-in Consent Desk</h5>
+                            <p>
+                                콘센트 3구, USB 2포트 멀티탭이 빌트인되어 여러 대의 디바이스 충전이 용이하며 깔끔한
+                                전선 정리가 가능합니다.
+                                멀티탭을 사용하지 않을 때는 커버를 닫아두면 먼지나 각종 오염물질을 차단하여 늘 깔끔하게 사용 할 수 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="detail2">
+                        <img src="images/common/detail/detail02.jpg" alt="상세이미지2">
+                        <div class="detail_fl_content">
+                            <h5>Felt Magnetic board</h5>
+                            <p>펠트 자석보드를 사용하여 메모들을 붙일 수 있습니다.
+                                펠트 자석보드는 원하는 곳에 부착가능하며, 한번 부착하면 다시 뗄 수 없으니 신중히 부착 바랍니다.</p>
+                        </div>
+                    </div>
+                    <div class="detail3">
+                        <img src="images/common/detail/detail03.jpg" alt="상세이미지3">
+                        <div class="detail_fl_content">
+                            <h5>LED Light</h5>
+                            <p>소비 전력이 낮고 수명이 긴 LED 조명으로 5단계로 밝기 조절이 가능하며, 원하는 분위기에 따라 조명 모드를 선택할 수 있습니다.
+                                조명부가 최대 11cm까지 부드럽게 인출되어 빛이 넓고 고르게 퍼지고, 바른 자세를 유지하도록 도움을 줍니다.</p>
+                        </div>
+                    </div>
+                    <div class="detail4">
+                        <img src="images/common/detail/detail04.jpg" alt="상세이미지4">
+                        <div class="detail_fl_content">
+                            <h5>FLAP DOOR</h5>
+                            <p>많은 수납이 필요한 학습, 업무 공간을 깔끔하게 사용할 수 있도록 수납된 물건들을 가려주는 상부 도어가 설치되어 있습니다.
+                                깔끔하게 정돈된 환경에서 집중력을 높일 수 있습니다.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bd-t">
+        <div class="inner">
+            <div class="article_color ">
+                <h2>3COLORS</h2>
+                <img src="images/common/detail/color-img.jpg" alt="">
+                <p>1. WHITE<br>
+                    2. WHITE + LIGHT OAK<br>
+                    3. LIGHT OAK
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bd-t detail_information">
+        <div class="inner clearfix">
+            <h2 class="detail_title">INFORMATION</h2>
+            <div class="info1">
+                <img src="images/common/detail/%EC%84%B8%EB%B6%801.PNG" width="" height="" alt="">
+            </div>
+            <div class="info2">
+                <img src="images/common/detail/%EC%84%B8%EB%B6%802.png" width="" height="" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="bd-t detail_causion">
+        <div class="inner clearfix">
+            <h2 class="detail_title">CAUSION</h2>
+            <img src="images/common/detail/%EC%9C%A0%EC%9D%981.PNG" alt="">
+            <img src="images/common/detail/%EC%9C%A0%EC%9D%982.png" alt="">
+        </div>
+    </div>
+
+
+
+
+
+    <!-- footer -->
+    <footer class="bd-b bd-t">
+        <div class="inner">
+            <div class="footer_main clearfix">
+                <div class="footer_content">
+                    <nav class="fnb clearfix">
+                        <ul>
+                            <li>
+                                <a href="#">회사 소개</a>
+                            </li>
+                            <li>
+                                <a href="#">인재 채용</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#">QNA</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <p>Happy Team members - Dajeong, Seoungyeol, Andy, Hynsun, Jinju, Seoungjin</p>
+                </div>
+                <nav class="fnb_sns bd-l">
+                    <ul>
+                        <li class="bd-b">
+                            <a href="#">
+                                <i>
+                                    <img src="./images/icon/facebook.png" alt="facebook-icon">
+                                    <img src="./images/icon/facebook-w.png" alt="facebook-icon">
+                                </i>
+                            </a>
+                        </li>
+                        <li class="bd-l bd-b">
+                            <a href="#">
+                                <i>
+                                    <img src="./images/icon/instagram.png" alt="instagram-icon">
+                                    <img src="./images/icon/instagram-w.png" alt="instagram-icon">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i>
+                                    <img src="./images/icon/pinterest.png" alt="pinterest-icon">
+                                    <img src="./images/icon/pinterest-w.png" alt="pinterest-icon">
+                                </i>
+                            </a>
+                        </li>
+                        <li class="bd-l">
+                            <a href="#">
+                                <i>
+                                    <img src="./images/icon/twitter.png" alt="twitter-icon">
+                                    <img src="./images/icon/twitter-w.png" alt="twitter-icon">
+                                </i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="footer_copy bd-t">
+            <div class="inner">
+                <p>copyrights all reserved 2020. happy</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/calc.js"></script>
 </body>
 </html>
+
